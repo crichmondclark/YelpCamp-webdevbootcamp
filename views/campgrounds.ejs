@@ -1,12 +1,10 @@
+<% include partials/header %>
 <h1>This is the campground page</h1>
 <h2>nultiples</h2>
-
-
 
 <% campgrounds.forEach(function(campground) { %>
     <div>
         <%= campground.name  %>
         <img src="<%= campground.image %>">
 <% }); %>
-
-<img src="" alt="">
+<% include partials/footer %>
